@@ -1,1 +1,41 @@
 <h1>Hello GitHub</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTruck Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <img src="illustration.png" alt="Illustration" class="illustration">
+            <h2>Haul with GoTruck</h2>
+            <p>With upfront pricing, instant booking, free quick pay, and facility ratings, Go Truck puts you in the driver's seat.</p>
+        </div>
+        
+        <!-- Right Section (Signup Form) -->
+        <div class="right-section">
+            <h2>Sign up as a Company</h2>
+            <p>Already have an account? <a href="#">Sign in</a></p>
+            <form id="signup-form">
+                <input type="text" id="first-name" placeholder="First Name" required>
+                <input type="text" id="last-name" placeholder="Last Name" required>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <input type="text" id="company-name" placeholder="Company Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <label>
+                    <input type="checkbox" id="terms" required>
+                    Creating an account means you agree with our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy </a> our default <a href="#">Notifications Settings</a>.
+                </label>
+                <button type="submit">Sign up</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
